@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header" id="top">
+        <div class="container">
+          <h1 class="header-logo">
+            <a href="top">KAZUYA NISHIYAMA</a>
+          </h1>
+          <nav class="gnav">
+            <ul class="gnav-list">
+              <li class="gnav-item"><a href="#works">WORKS</a></li>
+              <li class="gnav-item"><a href="#skill">SKILL</a></li>
+              <li class="gnav-item"><a href="#about">ABOUT</a></li>
+              <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="content">
+        <div class="mv">
+          <div class="mv-container">
+            <p class="mv-title">KAZUYA NISHIYAMA</p>
+            <p class="mv-subtitle">PORTFOLIO</p>
+          </div>
+        </div>
+
+        <section class="works section" id="works">
+          <div class="container">
+            <h2 class="title">WORKS</h2>
+            <div class="works-list">
+              <a class="works-item" href="works-template1.html">
+                <div class="works-img"><img src="css/img/library.jpg"></div>
+                <p class="works-name">オンライン図書館貸出アプリ</p>
+                <p class="works-info">Django(python)</p>
+              </a>
+              <a class="works-item" href="works-template2.html">
+                <div class="works-img"><img src="css/img/VBADD.png"></div>
+                <p class="works-name">該当社員の給与明細書自動作成機能</p>
+                <p class="works-info">VBA</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="skill section" id="skill">
+          <div class="container">
+            <h2 class="title">SKILL</h2>
+            <div class="skill-list">
+              <div class="skill-item">
+                <p class="skill-img"><img src="css/img/html5css3.png" alt=""></p>
+                <div class="skill-body">
+                <h3 class="skill-name">HTML5/CSS3</h3>
+                <p class="skill-text">
+                  Bootstrap,Bulma,jQuery,javascriptとの連携、HP、ポートフォリオの作成</p>
+                </div>
+               </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="css/img/javascript-icontest.png" alt=""></p>
+                <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">
+                 要素のスクロール設定、 QuaggaJsによる二次元バーコード読み取り</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="css/img/jquery_test.png" alt=""></p>
+                <div class="skill-body">
+                <h3 class="skill-name">JQuery</h3>
+                <p class="skill-text">
+                 API連携, Ajaxによる非同期通信</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="css/img/django-icon-0.png" alt=""></p>
+                <div class="skill-body">
+                <h3 class="skill-name">Django</h3>
+                <p class="skill-text">
+                 Webアプリケーション開発</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"><img src="css/img/circleImg036.png" alt=""></p>
+                <div class="skill-body">
+                <h3 class="skill-name">VBA</h3>
+                <p class="skill-text">
+                 請求書、給与明細書の作成業務などの効率化</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="css/img/profileicon.png" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                西山    航矢 / Nishiyama Kazuya</P>
+               <p> 生年月日：1999年1月21日生まれ
+              </p>
+              <p>
+                アルバイト時代にITパスポートを取得してから、IT業界を目指すようになりました。
+訓練におきましては、実際のシステム開発業務を想定し、「企画・計画・設計・実装・テスト」の段階ごとに期間を定め、スケジュールを把握しつつ、作成した機能の依頼としてクライアントから求められている要件との整合性を常に意識しながら取り組みました。
+業務にあたっては、訓練やこれまで職務経験を活かし、自分で積極的に学んでいく姿勢と、チームで協力し合うことを重視したいと思っています。
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+          <form action="#" method="post">
+            <dl>
+              <dt><label for="name">NAME</label></dt>
+              <dd><input type="text" id="name" name="your-name"></dd>
+              <dt><label for="email">E-mail</label></dt>
+              <dd><input type="email" id="email" name="your-email"></dd>
+              <dt><label for="message">MESSAGE</label></dt>
+              <dd><textarea id="message" name="your-message"></textarea></dd>
+            </dl>  
+            <div class="button"><input type="submit" value="送信"></div>
+          </form>
+            <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <span class="contact-item">xxxxxx@gmail.com</span>
+          </div>
+     </section>
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+      </main>
+      <footer class="footer">
+         <div class="copyright">&copy;KAZUYA NISHIYAMA</div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type='text/javascript' src="js/script.js"></script>
+  </body>
+</html>

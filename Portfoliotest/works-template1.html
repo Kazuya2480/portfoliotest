@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='KAZUYA NISHIYAMA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='KAXUYA NISHIYAMAのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="KAZUYA NISHIYAMAのポートフォリオサイトです" />
+  <title>KAZUYA NISHIYAMA ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href="test.html">KAZUYA NISHIYAMA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="test.html#works">WORKS</a></li>
+            <li class="gnav-item"><a href="test.html#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="test.html#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="test.html#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <article class="article">
+        <div class="article-container">
+          <h2 class="article-title">オンライン図書館貸出アプリ</h2>
+          <div class="article-body">
+            <p>
+              <img src="css/img/library.jpg" alt="">
+            </p>
+            <p>
+              管理者、利用者それぞれに専用ページが用意されており、ログインすることで利用できます。
+            </p>
+            <p>※ログインの際、事前に新規登録を済ませている必要がありますが、これはあくまで利用者の場合に限ります。</p>
+            <h3>URL</h3>
+            <p><a href="https://yahoo.co.jp" target="_blank" rel="noopener">https://yahoo.co.jp</a></p>
+            
+            <h3>サイトの目的</h3>
+            <p>社内で利用されていない書籍の有効活用<br>
+            貸出手続などを処理する人手やスペース不足の改善</p>
+            <h3>ターゲット</h3>
+            <p>社員及び書籍管理者</p>
+            <h3>使用言語、機能についてなど</h3>
+            <p>
+              ログイン機能などWeb開発における一通りの機能が整っているDjangoをベースに開発しました。
+              <br>このアプリは、貸出登録が完了した際に初めて書籍が置いてある場所が表示される仕組みです。
+              <br>書籍や利用者の情報についてはDjangoと連携したSQLで登録・更新・削除の処理を行います。
+              <br>管理者側の書籍データ入力、登録フォーム画面においては、書籍webカメラによる書籍バーコードスキャンに利用するquaggajsや、書籍データ自動取得に利用するopenDBAPIなど、書籍情報の自動入力機能を搭載しました。
+            </p>
+          </div>
+           <div class="home-link">
+            <a href="test.html">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="copyright">&copy;KAZUYA NISHIYAMA</div>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
